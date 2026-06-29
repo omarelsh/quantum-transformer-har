@@ -1,0 +1,35 @@
+# Local datasets and large experiment artifacts
+datasets/
+largefiles/
+outputFigures100epochs/
+archive_excluded/
+
+# Model checkpoints and serialized arrays
+*.zip
+*.tar
+*.gz
+*.h5
+*.pt
+*.pth
+*.pkl
+*.npy
+*.npz
+
+# Python and notebook cache
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment and editor files
+.env
+*.env
+.vscode/
+.idea/
+
+# OS and temporary files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.temp
